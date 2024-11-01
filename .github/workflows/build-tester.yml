@@ -27,7 +27,7 @@ jobs:
           name: "tester-linux-x86_64"
           # A file, directory or wildcard pattern that describes what to upload
           path: |
-            "target/release/tester"
+            "./target/release/tester"
             "input.yaml"
             "data.txt"
             "string.txt"
@@ -54,7 +54,7 @@ jobs:
           name: "tester-windows-x86_64"
           # A file, directory or wildcard pattern that describes what to upload
           path: |
-            "target/release/tester.exe"
+            ".\target\release\tester.exe"
             "input.yaml"
             "data.txt"
             "string.txt"
