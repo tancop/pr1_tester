@@ -31,13 +31,13 @@ jobs:
           include-hidden-files: true
           # A file, directory or wildcard pattern that describes what to upload
           path: |
-            "./target/release/tester"
-            "input.yaml"
-            "data.txt"
-            "string.txt"
-            "parse.txt"
-            ".env"
-            "main.c"
+            target/release/tester
+            input.yaml
+            data.txt
+            string.txt
+            parse.txt
+            .env
+            main.c
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           # Duration after which artifact will expire in days. 0 means using default retention.
@@ -59,13 +59,13 @@ jobs:
           include-hidden-files: true
           # A file, directory or wildcard pattern that describes what to upload
           path: |
-            ".\target\release\tester.exe"
-            "input.yaml"
-            "data.txt"
-            "string.txt"
-            "parse.txt"
-            ".env"
-            "main.c"
+            .target\release\tester.exe
+            input.yaml
+            data.txt
+            string.txt
+            parse.txt
+            .env
+            main.c
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           # Duration after which artifact will expire in days. 0 means using default retention.
