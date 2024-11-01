@@ -20,6 +20,9 @@ jobs:
       - name: Build
         run: cargo build --release --verbose
 
+      - name: Check artifact files
+        run: ls -la; ls -la target/release
+
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.4.3
         with:
