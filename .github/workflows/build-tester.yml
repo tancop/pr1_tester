@@ -25,6 +25,7 @@ jobs:
         with:
           # Artifact name
           name: "tester-linux-x86_64"
+          include-hidden-files: true
           # A file, directory or wildcard pattern that describes what to upload
           path: |
             "./target/release/tester"
@@ -52,6 +53,7 @@ jobs:
         with:
           # Artifact name
           name: "tester-windows-x86_64"
+          include-hidden-files: true
           # A file, directory or wildcard pattern that describes what to upload
           path: |
             ".\target\release\tester.exe"
