@@ -1,0 +1,5 @@
+ID152a#0.4254#1542#popis dat#
+ID164b#0.4854#1942#zmrzlina#
+ID132a#0.4554#1842#zmrzlina 2#
+####
+ID121c#5.4654#1442#pas emul. #
